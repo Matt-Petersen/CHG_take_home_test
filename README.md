@@ -1,7 +1,7 @@
 # Welcome to my take home exam
 This covers the basic testing for the Heroku app at http://the-internet.herokuapp.com/login
 
-# Funtionality covered:
+# Functionality covered:
 - A Test to verify the correct items are displayed on a view
 - A Test to login with invalid credentials and ensure an error is displayed
 - A test to login with valid credentials and asserts on the updated view

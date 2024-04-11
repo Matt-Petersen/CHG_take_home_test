@@ -2,8 +2,8 @@
 This covers the basic testing for the Heroku app at http://the-internet.herokuapp.com/login
 
 # Functionality covered:
-- A Test to verify the correct items are displayed on a view
-- A Test to login with invalid credentials and ensure an error is displayed
+- A test to verify the correct items are displayed on a view
+- A test to login with invalid credentials and ensure an error is displayed
 - A test to login with valid credentials and asserts on the updated view
 
 ## Running a Test

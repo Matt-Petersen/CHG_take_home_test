@@ -4,7 +4,7 @@ test.beforeEach(async ({ page }) => {
   await page.goto('http://the-internet.herokuapp.com/login');
 });
 
-test('verifies view', async ({ page }) => {
+test('verifies login view', async ({ page }) => {
   await expect(page).toHaveTitle(/The Internet/);
   await expect(page.getByText('Login Page')).toBeVisible();
   await expect(page.getByRole('heading', { name: 'This is where you can log' })).toBeVisible();
